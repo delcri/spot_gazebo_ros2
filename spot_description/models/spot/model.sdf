@@ -42,6 +42,26 @@
           <izz>0.001</izz>
         </inertia>
       </inertial>
+      <sensor name="navsat" type="navsat">
+        <always_on>1</always_on>
+        <update_rate>10</update_rate>
+        <topic>model/spot/navsat</topic>
+        <navsat>
+          <position_sensing>
+            <horizontal>
+              <noise type="gaussian">
+                <stddev>0.01</stddev>
+              </noise>
+            </horizontal>
+            <vertical>
+              <noise type="gaussian">
+                <stddev>0.02</stddev>
+              </noise>
+            </vertical>
+          </position_sensing>
+        </navsat>
+      </sensor>
+
     </link>
     <joint name="base_link_joint" type="fixed">
       <child>body</child>
