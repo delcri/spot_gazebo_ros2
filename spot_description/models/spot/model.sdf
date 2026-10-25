@@ -50,7 +50,7 @@
           <position_sensing>
             <horizontal>
               <noise type="gaussian">
-                <stddev>0.01</stddev>
+                <stddev>4.5e-6</stddev>
               </noise>
             </horizontal>
             <vertical>
