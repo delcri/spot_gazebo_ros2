@@ -1421,6 +1421,32 @@
           </linear_acceleration>
         </imu>
       </sensor>
+      <sensor name="magnetometer" type="magnetometer">
+        <always_on>1</always_on>
+        <update_rate>50</update_rate>
+        <topic>model/spot/magnetometer</topic>
+        <magnetometer>
+          <x>
+            <noise type="gaussian">
+              <mean>0</mean>
+              <stddev>2e-6</stddev>
+            </noise>
+          </x>
+          <y>
+            <noise type="gaussian">
+              <mean>0</mean>
+              <stddev>2e-6</stddev>
+            </noise>
+          </y>
+          <z>
+            <noise type="gaussian">
+              <mean>0</mean>
+              <stddev>2e-6</stddev>
+            </noise>
+          </z>
+        </magnetometer>
+      </sensor>
+
     </link>
     <joint name="imu_j" type="fixed">
       <child>imu</child>
