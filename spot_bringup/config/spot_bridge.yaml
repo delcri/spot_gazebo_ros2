@@ -82,6 +82,26 @@
   ros_type_name: "sensor_msgs/msg/MagneticField"
   gz_type_name: "ignition.msgs.Magnetometer"
   direction: GZ_TO_ROS
+- ros_topic_name: "/spot/contact/front_left"
+  gz_topic_name: "/model/spot/contact/front_left"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "ignition.msgs.Contacts"
+  direction: GZ_TO_ROS
+- ros_topic_name: "/spot/contact/front_right"
+  gz_topic_name: "/model/spot/contact/front_right"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "ignition.msgs.Contacts"
+  direction: GZ_TO_ROS
+- ros_topic_name: "/spot/contact/rear_left"
+  gz_topic_name: "/model/spot/contact/rear_left"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "ignition.msgs.Contacts"
+  direction: GZ_TO_ROS
+- ros_topic_name: "/spot/contact/rear_right"
+  gz_topic_name: "/model/spot/contact/rear_right"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "ignition.msgs.Contacts"
+  direction: GZ_TO_ROS
 
 # Controller
 - ros_topic_name: "/spot/joint_trajectory"

@@ -1063,7 +1063,7 @@
         <contact>
           <collision>front_left_lower_leg_collision</collision>
           <collision>front_left_lower_leg_collision_1</collision>
-          <topic>__default_topic__</topic>
+          <topic>model/spot/contact/front_left</topic>
         </contact>
       </sensor>
     </link>
@@ -1284,7 +1284,7 @@
         <contact>
           <collision>front_right_lower_leg_collision</collision>
           <collision>front_right_lower_leg_collision_1</collision>
-          <topic>__default_topic__</topic>
+          <topic>model/spot/contact/front_right</topic>
         </contact>
       </sensor>
     </link>
@@ -1633,7 +1633,7 @@
         <contact>
           <collision>rear_left_lower_leg_collision</collision>
           <collision>rear_left_lower_leg_collision_1</collision>
-          <topic>__default_topic__</topic>
+          <topic>model/spot/contact/rear_left</topic>
         </contact>
       </sensor>
     </link>
@@ -1853,7 +1853,7 @@
         <contact>
           <collision>rear_right_lower_leg_collision</collision>
           <collision>rear_right_lower_leg_collision_1</collision>
-          <topic>__default_topic__</topic>
+          <topic>model/spot/contact/rear_right</topic>
         </contact>
       </sensor>
     </link>
