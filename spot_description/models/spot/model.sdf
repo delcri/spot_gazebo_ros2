@@ -1345,7 +1345,7 @@
     <link name="imu">
       <sensor name="imu" type="imu">
         <always_on>1</always_on>
-        <update_rate>100</update_rate>
+        <update_rate>200</update_rate>
         <topic>model/spot/imu</topic>
         <imu>
           <enable_orientation>0</enable_orientation>
